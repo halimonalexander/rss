@@ -1,0 +1,28 @@
+{
+  "name": "halimonalexander/rss",
+  "description": "Rss plugin",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/halimonalexander/rss",
+  "support": {
+    "issues": "https://github.com/halimonalexander/rss/issues"
+  },
+  "authors": [
+    {
+      "name": "Halimon Alexander",
+      "email": "vvthanatos@gmail.com",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "HalimonAlexander\\Rss\\": "src/"
+    }
+  }
+}
